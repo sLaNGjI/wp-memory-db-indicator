@@ -1,7 +1,7 @@
 Memory and db Indicator
 =======================
 
-Indicate Memory and db Usage on WoedPress Backend. Show Memory Load and db size on Footer and Max Memory Consumption on Admin Bar or ToolBar.
+Indicate Memory and db Usage on WordPress Backend. Show Memory Load and db size on Footer and Max Memory Consumption on Admin Bar or ToolBar.
 
 Display the PHP Memory Load Consuption and db Usage on Dashboard Footer, and Backend Admin Bar or ToolBar. This is usefull when you've got limited PHP memory available, or limited db quote, and are trying to keep track on how much you've got left.
 
