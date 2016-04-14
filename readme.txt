@@ -1,47 +1,173 @@
-=== Memory Load db Usage ===
+=== Memory usage db size ===
 Contributors: sLaNGjI
-Donate link: http://slangji.wordpress.com/donate/
-Tags: max, memory, load, db, size, usage, footer, dashboard, admin, bar, toolbar, slangji 
-Stable tag: 2012.1125.0000
+Donate link: https://slangji.wordpress.com/donate/
+Tags: sLaNGjIs, admin-bar, backend, dashboard, db, footer, load, memory, size, toolbar, usage, max, peak, leak, limit, mysqli,
 Requires at least: 3.1
-Tested up to: 3.5
+Tested up to: 4.3
+Stable tag: 2013.0124.2016.2
 License: GPLv2 or later
-Indicate Memory Load Consumption and db size Usage on WordPress Backend. Show Memory Load and db size on Footer, and Max Memory Load on Admin Bar or ToolBar.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+indicate wordpress memory usage with db size consumption on dashboard admin control panel footer and show max memory load peak to admin bar or toolbar
+
 == Description ==
-Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
 
-Display the PHP Memory Load Consuption and db Usage on Dashboard Footer, and Backend Admin Bar or ToolBar. This is usefull when you've got limited PHP memory available, or limited db quote, and are trying to keep track on how much you've got left.
+Display the memory usage with db size consumptionon, on dashboard admin control panel footer, show max memory load peak to backend and frontend admin bar or toolbar, indicate detailed debug healh informations on footer view source text. This is usefull when you've got limited PHP memory available, or limited db quote, and are trying to keep track on how much you've got left. - Build 2016-01-30 -
 
-This Plugin is Based and Derived Directly from Almost Famous [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/).
+Based and Derived Directly from Almost Famous [WP Overview (lite)](https://wordpress.org/plugins/wp-overview-lite/)
 
-Compatible with Single and Network MultiSite Environment.
+> Specifications and Requirements:
+>
+> **MEMORY MODULE**
+>
+> WordPress from 3.1+ to 4.5+ and PHP from 5.2.1 or greater
+>
+> **DB MODULE**
+>
+> WordPress from 3.1+ to 4.3+ and PHP from 5.2.1 to 5.4.45 only
+>
+> **ADMIN BAR MODULE**
+>
+> WordPress from 3.1+ to 3.2+ only
+>
+> **TOOLBAR MODULE**
+>
+> WordPress 3.3+ or greater
+>
+> **WARNING**
+>
+> PHP 5.5+/5.6+/7.0+ or later and greater (possible errors on db module)
 
-Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
-
-* Try also:
- * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
- * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
- * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
- * [WP Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
- * [WP Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
- * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
- * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
- * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
- * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
-
-Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
+* [My Others WordPress Plugins](https://slangji.wordpress.com/plugins/) on [Softpedia Webscripts](http://webscripts.softpedia.com/publisher/sLa-1869786722.html) [GitHub](https://github.com/slangji)
+ * [WP Overview (lite)](https://wordpress.org/plugins/wp-overview-lite/) (modules updated)
+ * [WP Missed Schedule](https://wordpress.org/plugins/wp-missed-schedule/) 260.000+ Downloads 80.000+ Installs
+ * [WP Hide Admin Bar and Toolbar](https://wordpress.org/plugins/global-admin-bar-hide-or-remove/) (new)
+ * [WP Admin Bar Removal](https://wordpress.org/plugins/wp-admin-bar-removal/) Linked at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
+ * [WP ToolBar Removal](https://wordpress.org/plugins/wp-toolbar-removal/) Linked at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
+ * [IE Enhancer and Modernizer](https://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Linked at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
+ * [Header and Footer Log](https://wordpress.org/plugins/wp-header-footer-log/) Only For Developers
+== Screenshots ==
+1. Memory Load and Peak Indicator on Admin Bar or Toolbar
+2. db size and Memory Usage on Dashboard Admin Control Panel
 == Changelog ==
-`All previous release, prior of latest stable, are on fact
-deprecated, and no longer supported on this project:
-is very suggested upgrade to the latest build always!
-This plugin work under GPLv2 license.`
-= Development Release =
-[Version 2013 Build 0000-BUGFIX Revision 0000-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-memory-db-usage.zip)
-= 2012.1125.0000 =
-* Release [STABLE] Show Memory Load and db size Usage on WordPress Backend.
- * First Plugin Release
- * Work under GPLv2 license
- * Bump Version 2012 Build 1125 Revision 0000
+db module compatibility for PHP 5.5+/5.6+/7.0+ and MySQLi is planned for end 2016?
+= 2013.0124.2016.2 =
+* Release [STABLE] Indicate Memory Load Consumption and db size Usage.
+ * Developmental Stable Code in Becoming!
+ * Work under [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later License and no other.
+ * Based and Derived from Almost Famous [WP Overview (lite)](https://wordpress.org/plugins/wp-overview-lite/).
+ * Compatible with Single and Network MultiSite Environment.
+ * Autoconfiguration Features Based on WordPress Version Used.
+ * Show Memory Indicator on Dashboard Backend Footer (3.1+ to 4.5+)
+ * Show Memory Indicator on Dashboard Backend Admin Bar (3.1+ to 3.2+)
+ * Show Memory Indicator on Dashboard Backend Toolbar (3.3+ or greater)
+ * Show db size Usage on Dashboard Backend Footer (3.1+ to 4.3+)
+ * Show db size Usage on Dashboard Admin Notices (3.1+ to 3.2+)
+ * Show Memory Indicator on Frontend and Backend View Source Mode
+ * Show Queries on Frontend and Backend View Source Mode
+ * Show Execution Time on Frontend and Backend View Source Mode
+ * Version 2013 Build 0124 Revision 2016 Update 2
 == Upgrade Notice ==
-= 2012.1125.0000 =
-* Release [STABLE] Show Memory Load and db size Usage on WordPress Backend. Work under GPLv2 license.
+= 2013.0124.2016.2 =
+Release [STABLE] Indicate Memory Load Consumption and db size Usage on Dashboard Backend Only. Plugin Autoconfiguration Features Based on WordPress Version Used. Show View Source Mode Debug Informations. Work under GPLv2 or later License. Developmental Stable Code in Becoming!
+== Disclaimer ==
+[sLaNGjIs Team not provide support on wordpress.org forum and reviews](https://wordpress.org/plugins/wp-missed-schedule/other_notes/) because we are not interested in reviews o stars on our plugins and themes!
+
+Dear user of plugins or themes: Missed Schedule is a WordPress Bug!
+
+sLaNGjIs Team has started official adventure on WordPress.org forum since 2007!
+
+Everything was very different from today: the plugins and themes developed by us were much less, and also the users who used it.
+
+The traffic generated by users of the WordPress.org forum has increased exponentially, and in the same way also the requests for assistance have increased exponentially.
+
+In the near future this increase will be even more pronounced, as a result of the great success of WordPress.
+
+By contrast, both the posts and threads definable requests and those definable trash are very difficult to finding and follow: the time necessary for this purpose, now, longer a nightmare that one added value service, real.
+
+The problems of this type of assistance, through that instruments, have been deemed ineffective by more and more developers excellent, while the tools available for this workload considered inadequate to many of them.
+
+Many of these developers have already abandoned this platform of assistance by providing others methods of support.
+
+Our team has tried to respond to all for more long years, and maintained the support forums for plugins and themes developed always clean.
+
+Due to this big limitation of platform, and the result of failing to provide a service that gives us satisfaction, as of today August 15 2014, we abandon the active support of this type of structure, started since July 7 2007, to try to give one type of personalized service, targeted to the requests of real user utilization and totally Free of Charge:
+
+1. Bugs [sLaNGjIs GitHub](https://github.com/sLaNGjI/)
+1. Suggestions [sLaNGjIs Contact](https://slangji.wordpress.com/contact/)
+1. Support [sLaNGjIs Premium](https://slangji.wordpress.com/premium-support/)
+
+* Please note that:
+ * We are not interested in reviews.
+ * Do not write anything like that!
+ * We are not interested in stars.
+ * Do not make any in that sections!
+
+Possibility that some of us then reply or write on it, will be very low!
+== Philosophy ==
+The sLaNGjIs Team Philosophy.
+
+**sLaNGjIs Team plugins and themes are NoLogo**
+
+The philosophy of sLaNGjIs Team plugins and themes is:
+
+*LICENSING*
+
+* GPLv2 or later - NOT GPLv3 or later - since is not officially allowed from the licensing
+* GPLv2 or later - NOT GPLv2 or greater - because greater corresponds to GPLv3
+
+*BRANDING*
+
+* NO LOGO - all works and programs include nologo philosophy.
+* This is because the name of the icons for the plugins and themes is
+  icon128x128.png or icon256x256.png and NOT logo128x128.png or logo256x256.png
+
+*TRANSLATION*
+
+* GlotPress is NOT trusted for now and is NOT supported on plugins and themes of this team.
+* All GlotPress files .pot and .mo automatically distributed is NOT trusted for now.
+* All GlotPress description is possible that differ from originals author - the use it's at your own risk.
+* All GlotPress translated links is possible that differ from originals author - the use it's at your own risk.
+* No translations is supported officially except only for all single words secured and verified.
+
+*INDENTATION*
+
+* Only GNU indentations is supported, no others.
+* No minified code is distributed: never.
+
+*DISTRIBUTION*
+
+* Only official plugins and themes distribution files .zip on WordPress.org repositpory is safe.
+* Please verify if the integrity of your distribution files SHA1 CHECKSUM is conform to original.
+* Only original online copy of checksum.txt SHA1 on WordPress.org repository is safe.
+* Please verify if the KeyTag and AuthTag included on all main files is conform to original.
+* Only original online copy of KeyTag and AuthTag on WordPress.org repository is safe.
+* If is not executed all this step thiw team decline any implicit and explicit responsabulity.
+* If is not executed all this step thiw team decline any implicit and explicit damages.
+* All this checks was a necessary security rules beacause is possible modify and redistribute
+  malformed and malicious distribution files .zip
+
+*DONATION*
+
+* All plugins and themes is free: no money was given for it.
+* This is true on all internet places, included all that is not official.
+
+*SUPPORT*
+
+* No support is provided on WordPress.org forum and reviews.
+* No reviews please: this team not need any of it.
+* No stars please: this team not need any of it.
+* But, please, not add fake stars, reviews and requests.
+
+*PREMIUM*
+
+* All premium support is free of charges.
+* Never is requested moneys for it, on any situation, except for requests that differ to the bug fix.
+* But, for the nature of this, not all requests are processed - except only for all that it is legitimate.
+
+*PRO AND GOLD*
+
+* The versions of the plugins and themes are not the same of the repository of WordPress.org
+* All of this correspond to another method of distribution, and corresponds to another situation.
+
+Thanks!
